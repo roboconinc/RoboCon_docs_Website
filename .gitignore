@@ -1,0 +1,76 @@
+# Data and Raw Files
+/data_raw/
+/extracted_pdf_content/
+
+# Large Assets - PDFs
+*.pdf
+
+# Large Image Files (keep small ones for docs)
+*.psd
+*.ai
+*.eps
+*.raw
+*.cr2
+*.nef
+*.orf
+*.sr2
+
+# Large Video Files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+
+# Large Audio Files
+*.wav
+*.flac
+*.aac
+*.m4a
+
+# Large Archive Files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.bz2
+
+# Large Database Files
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+
+# Node modules (if any in root)
+node_modules/
+
+# Build outputs
+build/
+dist/
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+

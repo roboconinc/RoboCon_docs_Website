@@ -1,0 +1,25 @@
+.diagramWrapper {
+  position: relative;
+  margin: 20px 0;
+}
+
+.diagramContent {
+  margin-bottom: 8px;
+}
+
+.downloadContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 8px;
+  padding: 8px;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 6px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* Dark mode support */
+[data-theme='dark'] .downloadContainer {
+  background: var(--ifm-color-emphasis-100);
+  border-color: var(--ifm-color-emphasis-200);
+}
+

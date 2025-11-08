@@ -1,0 +1,60 @@
+.downloadButtons {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+  padding: 16px;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 8px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.downloadButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: var(--ifm-color-primary);
+  color: var(--ifm-color-primary-contrast-background);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.downloadButton:hover {
+  background: var(--ifm-color-primary-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.downloadButton:active {
+  transform: translateY(0);
+}
+
+.downloadButton svg {
+  flex-shrink: 0;
+}
+
+@media print {
+  .downloadButtons {
+    display: none !important;
+  }
+}
+
+/* Hide download buttons when printing */
+@media print {
+  .downloadButtons,
+  button[aria-label*="Download"] {
+    display: none !important;
+    visibility: hidden !important;
+  }
+}
+
+/* Dark mode support */
+[data-theme='dark'] .downloadButtons {
+  background: var(--ifm-color-emphasis-100);
+  border-color: var(--ifm-color-emphasis-200);
+}
+

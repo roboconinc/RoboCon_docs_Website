@@ -1,0 +1,408 @@
+/**
+ * ROBOCON SDK Documentation Theme
+ * Inspired by Unitree's clean, technical documentation design
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  /* Primary brand colors - Professional blue/orange scheme similar to Unitree */
+  --ifm-color-primary: #0066cc;
+  --ifm-color-primary-dark: #0059b3;
+  --ifm-color-primary-darker: #0054a8;
+  --ifm-color-primary-darkest: #00458a;
+  --ifm-color-primary-light: #1a75d6;
+  --ifm-color-primary-lighter: #267ed9;
+  --ifm-color-primary-lightest: #4d99e6;
+  
+  /* Code styling */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 102, 204, 0.1);
+  
+  /* Typography */
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --ifm-heading-font-weight: 600;
+  
+  /* Spacing and layout */
+  --ifm-navbar-height: 64px;
+  --ifm-navbar-padding-vertical: 0.5rem;
+  
+  /* Accent colors */
+  --ifm-color-secondary: #ff6600;
+  --ifm-color-secondary-dark: #e55a00;
+  --ifm-color-secondary-darker: #d95400;
+  --ifm-color-secondary-darkest: #b34500;
+  --ifm-color-secondary-light: #ff7720;
+  --ifm-color-secondary-lighter: #ff8033;
+  --ifm-color-secondary-lightest: #ff9959;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #4d99e6;
+  --ifm-color-primary-dark: #3d8fe3;
+  --ifm-color-primary-darker: #3388e1;
+  --ifm-color-primary-darkest: #2a70ba;
+  --ifm-color-primary-light: #5da3e9;
+  --ifm-color-primary-lighter: #67a9eb;
+  --ifm-color-primary-lightest: #81b9ef;
+  --docusaurus-highlighted-code-line-bg: rgba(77, 153, 230, 0.2);
+  
+  --ifm-color-secondary: #ff8833;
+  --ifm-color-secondary-dark: #ff7720;
+  --ifm-color-secondary-darker: #ff6f0d;
+  --ifm-color-secondary-darkest: #cc5a00;
+  --ifm-color-secondary-light: #ff9946;
+  --ifm-color-secondary-lighter: #ffa359;
+  --ifm-color-secondary-lightest: #ffbb7f;
+}
+
+/* Navbar styling */
+.navbar {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.navbar__brand {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-dark) 100%);
+  color: white;
+}
+
+.hero__title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero__subtitle {
+  font-size: 1.3rem;
+  opacity: 0.95;
+}
+
+/* Code blocks */
+.prism-code {
+  border-radius: 6px;
+}
+
+/* Sidebar styling */
+.theme-doc-sidebar-container {
+  border-right: 1px solid var(--ifm-toc-border-color);
+}
+
+/* Link hover effects */
+a:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+/* Table styling */
+table {
+  display: table;
+  width: 100%;
+}
+
+thead {
+  background: var(--ifm-table-head-background);
+}
+
+/* Button styling */
+.button--secondary {
+  border-color: var(--ifm-color-secondary);
+  color: var(--ifm-color-secondary);
+}
+
+.button--secondary:hover {
+  background: var(--ifm-color-secondary);
+  color: white;
+}
+
+/* Print styles for browser native print (Ctrl+P) */
+@media print {
+  /* Reduce spacing before headings - especially for first heading on page */
+  h2, h3, h4 {
+    margin-top: 6pt !important;
+    margin-bottom: 6pt !important;
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+  
+  /* Reduce spacing even more for first heading after title */
+  article > h2:first-of-type,
+  article > h3:first-of-type,
+  article > h4:first-of-type {
+    margin-top: 0 !important;
+    page-break-before: avoid !important;
+    break-before: avoid !important;
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+  
+  /* Prevent page breaks before and after System Architecture (first h2) - AGGRESSIVE */
+  /* Prevent page break before System Architecture heading */
+  article > h2:first-of-type {
+    page-break-before: avoid !important;
+    break-before: avoid !important;
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+  
+  /* Prevent page break before System Architecture diagram */
+  article > h2:first-of-type + div,
+  article > h2:first-of-type + pre.mermaid,
+  article > h2:first-of-type + div[style*="text-align: center"],
+  article > h2:first-of-type + p + div,
+  article > h2:first-of-type + p + pre.mermaid {
+    page-break-before: avoid !important;
+    break-before: avoid !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+  
+  /* Prevent page break after System Architecture diagram - allow normal flow */
+  article > h2:first-of-type + div[style*="text-align: center"],
+  article > h2:first-of-type + pre.mermaid,
+  article > h2:first-of-type + div[style*="text-align: center"] ~ *:first-of-type:not(h2):not(h3):not(h4) {
+    page-break-after: auto !important;
+    break-after: auto !important;
+  }
+  
+  /* Prevent page break on elements immediately before System Architecture */
+  /* Target elements that appear before first h2 - VERY SPECIFIC */
+  article > p:first-of-type {
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+  
+  /* Prevent page break on DownloadButtons component */
+  article > div:has(button[aria-label*="Download"]),
+  article > .downloadButtons {
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+  
+  /* Prevent page break on elements that come before first h2 */
+  /* Target specific elements that typically appear before System Architecture */
+  article > p:first-of-type,
+  article > div:first-of-type:not(.heading-diagram-wrapper),
+  article > *:first-child:not(h2):not(h3):not(h4):not(.heading-diagram-wrapper) {
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+  
+  /* Wrapper for System Architecture - no page breaks */
+  /* Target wrapper with data attribute or first wrapper */
+  article > .heading-diagram-wrapper[data-system-architecture="true"],
+  article > .heading-diagram-wrapper:first-of-type {
+    page-break-before: avoid !important;
+    break-before: avoid !important;
+    page-break-after: auto !important;
+    break-after: auto !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+  
+  /* Prevent page break after Multi-Agent Coordination heading and diagram */
+  /* Multi-Agent Coordination is the 4th h2 (System Architecture, Key Components, Data Flow, Multi-Agent Coordination) */
+  article > h2:nth-of-type(4),
+  article > h2[data-multi-agent-coordination="true"] {
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+  
+  /* Prevent page break after Multi-Agent Coordination diagram */
+  article > h2:nth-of-type(4) + div[style*="text-align: center"],
+  article > h2:nth-of-type(4) + pre.mermaid,
+  article > h2:nth-of-type(4) + div,
+  article > h2:nth-of-type(4) + p + div[style*="text-align: center"],
+  article > h2:nth-of-type(4) + p + pre.mermaid,
+  article > h2[data-multi-agent-coordination="true"] + div[style*="text-align: center"],
+  article > h2[data-multi-agent-coordination="true"] + pre.mermaid,
+  article > h2[data-multi-agent-coordination="true"] + div {
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+  
+  /* Wrapper for Multi-Agent Coordination - no page break after */
+  article > .heading-diagram-wrapper[data-multi-agent-coordination="true"],
+  article > .heading-diagram-wrapper:nth-of-type(4) {
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+  
+  /* Prevent page breaks on diagrams that follow headings - AGGRESSIVE */
+  h2 + pre.mermaid, h2 + .mermaid, 
+  h2 + div[style*="text-align: center"],
+  h3 + pre.mermaid, h3 + .mermaid,
+  h3 + div[style*="text-align: center"],
+  h4 + pre.mermaid, h4 + .mermaid,
+  h4 + div[style*="text-align: center"] {
+    page-break-before: avoid !important;
+    break-before: avoid !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    margin-top: 6pt !important;
+    margin-bottom: 6pt !important;
+  }
+  
+  /* Handle paragraphs between headings and diagrams */
+  h2 + p + pre.mermaid, h2 + p + div[style*="text-align: center"],
+  h3 + p + pre.mermaid, h3 + p + div[style*="text-align: center"],
+  h4 + p + pre.mermaid, h4 + p + div[style*="text-align: center"] {
+    page-break-before: avoid !important;
+    break-before: avoid !important;
+    margin-top: 6pt !important;
+  }
+  
+  /* Keep heading and diagram together - ALL VARIATIONS */
+  h2 + pre, h2 + div, h2 + p + pre, h2 + p + div,
+  h3 + pre, h3 + div, h3 + p + pre, h3 + p + div,
+  h4 + pre, h4 + div, h4 + p + pre, h4 + p + div {
+    page-break-before: avoid !important;
+    break-before: avoid !important;
+  }
+  
+  /* Reduce spacing for diagrams after headings */
+  h2 + div[style*="text-align: center"],
+  h3 + div[style*="text-align: center"],
+  h4 + div[style*="text-align: center"] {
+    margin-top: 6pt !important;
+    margin-bottom: 6pt !important;
+    page-break-before: avoid !important;
+    break-before: avoid !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+  
+  /* Limit diagram size to fit on page - Keep large for readability but ensure fit */
+  /* Letter page usable height: ~684pt, heading: ~24pt, spacing: ~12pt, so max diagram: ~800pt for larger diagrams */
+  h2 ~ div[style*="text-align: center"]:first-of-type,
+  h3 ~ div[style*="text-align: center"]:first-of-type,
+  h4 ~ div[style*="text-align: center"]:first-of-type {
+    max-height: 800pt !important;
+    height: auto !important;
+    page-break-before: avoid !important;
+    break-before: avoid !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+  
+  h2 ~ div[style*="text-align: center"]:first-of-type img,
+  h3 ~ div[style*="text-align: center"]:first-of-type img,
+  h4 ~ div[style*="text-align: center"]:first-of-type img,
+  h2 + div img, h3 + div img, h4 + div img {
+    max-height: 800pt !important;
+    max-width: 100% !important;
+    height: auto !important;
+    width: auto !important;
+    object-fit: contain !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    page-break-before: avoid !important;
+    break-before: avoid !important;
+  }
+  
+  /* Mermaid diagrams - keep large for readability, especially System Architecture */
+  pre.mermaid, .mermaid {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    page-break-before: avoid !important;
+    break-before: avoid !important;
+    max-height: 800pt !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+  
+  /* SVG elements in diagrams - keep large */
+  h2 + div svg, h3 + div svg, h4 + div svg,
+  h2 ~ div svg, h3 ~ div svg, h4 ~ div svg {
+    max-height: 800pt !important;
+    max-width: 100% !important;
+    height: auto !important;
+    width: auto !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+  
+  /* Force all diagram containers to allow large diagrams */
+  article div[style*="text-align: center"] {
+    max-height: 850pt !important;
+  }
+  
+  article div[style*="text-align: center"] img,
+  article div[style*="text-align: center"] svg {
+    max-height: 800pt !important;
+  }
+  
+  /* Special handling for System Architecture - make it even larger */
+  h2:has(+ div svg) + div svg,
+  h2:has(+ pre.mermaid) + pre.mermaid svg {
+    max-height: 900pt !important;
+  }
+  
+  /* Hide empty paragraphs between headings and diagrams */
+  h2 + p:empty, h3 + p:empty, h4 + p:empty {
+    margin: 0 !important;
+    height: 0 !important;
+    display: none !important;
+  }
+  
+  /* Reduce margins on images after headings */
+  h2 + img, h3 + img, h4 + img {
+    margin-top: 6pt !important;
+  }
+  
+  /* Wrap headings and diagrams in containers to keep together */
+  /* Use a more aggressive approach - target article content */
+  article h2, article h3, article h4 {
+    orphans: 3;
+    widows: 3;
+  }
+  
+  /* Ensure diagrams don't break away from headings */
+  article h2 + div[style*="text-align: center"],
+  article h3 + div[style*="text-align: center"],
+  article h4 + div[style*="text-align: center"] {
+    page-break-before: avoid !important;
+    break-before: avoid !important;
+    max-height: 400pt !important;
+  }
+  
+  /* Wrapper created by client module - keep heading and diagram together */
+  .heading-diagram-wrapper {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    display: block !important;
+    width: 100% !important;
+    max-height: 650pt !important;
+    overflow: visible !important;
+  }
+  
+  .heading-diagram-wrapper h2,
+  .heading-diagram-wrapper h3,
+  .heading-diagram-wrapper h4 {
+    margin-top: 6pt !important;
+    margin-bottom: 6pt !important;
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+  
+  .heading-diagram-wrapper div,
+  .heading-diagram-wrapper img,
+  .heading-diagram-wrapper svg,
+  .heading-diagram-wrapper pre.mermaid,
+  .heading-diagram-wrapper .mermaid {
+    margin-top: 6pt !important;
+    page-break-before: avoid !important;
+    break-before: avoid !important;
+    max-height: 600pt !important;
+  }
+}
