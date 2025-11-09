@@ -29,6 +29,7 @@ const sidebars: SidebarsConfig = {
       label: 'Drafts',
       items: [
         'news/drafts',
+        'news/drafts/robocon-servicer-tracked-15kg-introduction',
       ],
     },
   ],
@@ -105,6 +106,13 @@ const sidebars: SidebarsConfig = {
         'cad-to-behavior-engine-implementation/overview',
         'cad-to-behavior-engine-implementation/patent',
         'cad-to-behavior-engine-implementation/implementation-details',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Robots',
+      items: [
+        'implementation/robots/servicer-tracked-arms',
       ],
     },
   ],

@@ -57,6 +57,17 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'implementation',
+        path: 'implementation',
+        routeBasePath: 'implementation',
+        sidebarPath: './implementation-sidebars.ts',
+      },
+    ],
+  ],
 
   themeConfig: {
     // Replace with your project's social card
@@ -79,15 +90,22 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
+          sidebarId: 'hardwareManualsSidebar',
+          position: 'left',
+          label: 'Hardware Manuals',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'implementationSidebar',
           position: 'left',
           label: 'Implementation',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'hardwareManualsSidebar',
+          sidebarId: 'hardwareSidebar',
           position: 'left',
-          label: 'Hardware Manuals',
+          label: 'Hardware',
+          docsPluginId: 'implementation',
         },
         {
           type: 'docSidebar',

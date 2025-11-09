@@ -9,32 +9,35 @@ The RoboCon Servicer Tracked 15kg is a tracked service robot variant designed fo
 - **Model**: Servicer Tracked 15kg
 - **Payload Capacity**: 15kg per arm
 - **Base Configuration**: Tracked mobility system
-- **Arms**: Dual 6-DOF robotic arms (Borunte BRTIRUS2030A)
+- **Arms**: Dual 6-DOF robotic arms
 - **Runtime**: 8+ hours per battery pack
 
 ## Overview
 
 The RoboCon Servicer Tracked features:
-- **Robotic Arm**: Borunte BRTIRUS2030A arm for manipulation tasks
-- **Mobile Base**: Ackermann-style base for navigation
+- **Robotic Arms**: Dual 6-DOF robotic arms for manipulation tasks
+- **Mobile Base**: Tracked base for all-terrain navigation
 - **Sensor Suite**: IMU and pressure sensors for operation monitoring
 - **Service Capabilities**: Designed for service and maintenance operations
 
 ## Hardware Drivers
 
-### Robotic Arm
+### Robotic Arms
 
-#### Arm Borunte BRTIRUS2030A
-- **Package**: `arm_borunte_brtirus2030a_driver`
-- **Type**: 6-DOF robotic arm controller
+#### Dual 6-DOF Robotic Arms
+- **Type**: Dual 6-DOF robotic arm system
 - **Application**: Manipulation and service tasks
+- **Payload**: 15kg per arm (30kg total dual-arm capacity)
+- **Reach**: 1500mm maximum arm span
 - **ROS 2 Integration**: 
-  - Uses `arm_borunte_brtirus2030a_controller` for control
-  - MoveIt integration available via `arm_borunte_brtirus2030a_moveit`
-- **Communication**: Serial communication (libserial)
+  - Full ROS 2 control interface
+  - MoveIt integration available for advanced motion planning
+- **Communication**: Serial communication interface
 - **ROS 2 Topics**:
   - Arm joint states and commands
   - Controller status and feedback
+
+> **For detailed manufacturer specifications and technical information, see:** [Implementation: Servicer Arms](/docs/implementation/robots/servicer-tracked-arms)
 
 ### Base Movement
 
@@ -118,9 +121,9 @@ ros2 launch robot_oservicer_bringup real_robot.launch.py
 ```
 
 The launch file brings up:
-- Arm controller (`arm_borunte_brtirus2030a_controller`)
+- Dual arm controllers
 - MoveIt (optional, commented out by default)
-- Base controller (`base_ackermann_controller`)
+- Base controller
 - Twist mux for velocity command priority
 - Serial master
 - Hardware monitor GUI
@@ -181,7 +184,7 @@ The RoboCon Servicer Tracked 15kg aligns with the capabilities of [Dexterity Mec
 
 | Feature | RoboCon Servicer Tracked 15kg | Dexterity Mech | RoboForce TITAN |
 |---------|------------------------------|----------------|-----------------|
-| **Arms** | Dual 6-DOF (BRTIRUS2030A) | Dual arms with unique shoulder | Dual arms |
+| **Arms** | Dual 6-DOF | Dual arms with unique shoulder | Dual arms |
 | **Payload** | 15kg per arm (30kg total) | 60kg total | 40kg total |
 | **Arm Span** | Optimized for service tasks | 5.4m | Variable |
 | **Base** | Tracked | Rover (4-wheel steerable) | Flexible |

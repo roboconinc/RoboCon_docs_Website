@@ -4,7 +4,13 @@ This page contains news articles that are in development or pending publication.
 
 ## Draft Articles
 
-*No draft articles yet.*
+### [Introducing RoboCon Servicer Tracked 15kg: Dual-Arm Service Robot for Industrial Applications](./robocon-servicer-tracked-15kg-introduction)
+
+**Status**: Draft  
+**Category**: Product Launch  
+**Product**: RoboCon Servicer Tracked 15kg
+
+A comprehensive product introduction post for the new RoboCon Servicer Tracked 15kg dual-arm service robot, including specifications, features, and applications.
 
 ---
 
