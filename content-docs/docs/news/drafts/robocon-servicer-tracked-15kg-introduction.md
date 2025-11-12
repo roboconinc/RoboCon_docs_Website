@@ -1,143 +1,103 @@
-# Introducing RoboCon Servicer: Dual-Arm Service Robot for Building Construction
+# RoboCon Announces Servicer: A Dual-Arm Robotic Platform for Precision Construction Automation
 
+**Date**: November 10, 2025  
 **Author**: Brad Lee  
-**Published Date**: TBD  
 **Category**: Product Launch  
 **Status**: Draft
 
 ---
 
-Launching today, RoboCon’s new Servicer platform brings dual-arm robotic manipulation to construction sites, enabling workers to perform complex service and maintenance tasks with robotic precision. The RoboCon Servicer family comes in two variants—Tracked and Wheeled—designed to operate in diverse construction environments, from rough outdoor terrain to smooth indoor surfaces.
+### RoboCon Announces Servicer: A Dual-Arm Robotic Platform for Precision Construction Automation
 
-RoboCon, the construction robotics company revolutionizing jobsite operations with intelligent, autonomous robots, today announced the release of its new product family, the RoboCon Servicer. Developed over the past year, this versatile dual-arm service robot empowers construction workers with superhumanoid capabilities while maintaining the safety and collaboration that defines RoboCon's approach to construction automation.
+**Oakland, CA --- November 10, 2025** --- RoboCon Inc., the California-based pioneer in autonomous construction robotics, today announced the **design launch** of its new **RoboCon Servicer**, a dual-arm robotic platform engineered for high-precision on-site construction tasks. While the Servicer is not yet available for purchase, RoboCon has released detailed technical specifications and preliminary pricing to gauge early market interest and engage with development partners ahead of full production.
 
-## Empowering Construction Workers with Dual-Arm Precision
-
-The RoboCon Servicer is designed to be operated by workers, using robotic precision to perform complex manipulation tasks that traditionally require multiple workers or specialized equipment. With dual 6-degree-of-freedom arms, each capable of lifting 15kg (33 lbs), the Servicer enables bimanual operations such as component assembly, equipment maintenance, material handling, and precision installation work. This dual-arm capability reduces the time required for complex tasks while improving consistency and reducing worker fatigue.
-
-"The RoboCon Servicer is the first product in our full construction machine lineup, but what truly sets it apart is the platform it's built on," said Brad Lee, CEO of RoboCon. "We've created a developer-friendly ecosystem with an open SDK and a marketplace where the community can contribute and monetize microservices—think of it as the Apple App Store for construction robots. This isn't just a robot; it's the foundation of an entire platform that will continuously evolve and improve through community innovation."
-
-## Two Variants for Every Environment
-
-The RoboCon Servicer family launches with two models, each optimized for different construction environments:
-
-**RoboCon Servicer Tracked 15kg**: Designed for outdoor construction sites and rough terrain, the Tracked variant features all-terrain mobility that enables operation on uneven surfaces, debris-laden areas, and challenging ground conditions. With its tracked base, the Servicer Tracked maintains stability and traction in the most demanding construction environments.
-
-**RoboCon Servicer Wheeled 15kg**: Optimized for indoor construction, smooth surfaces, and controlled environments, the Wheeled variant offers enhanced efficiency and maneuverability on flat surfaces. Ideal for interior finishing work, equipment installation, and precision tasks in controlled construction zones.
-
-Both models share the same dual-arm manipulation system, providing 30kg (66 lbs) total lifting capacity when both arms work together, with 1,500mm (5 feet) arm reach and 1mm precision that enables precise screwing operations and accurate pick-and-place tasks.
-
-## Key Features
-
-**Dual 6-DOF Robotic Arms**: Independent manipulation with 15kg payload capacity per arm, enabling coordinated bimanual operations for complex construction tasks.
-
-**All-Terrain Capability (Tracked)**: Tracked mobility system provides superior traction and stability on rough, uneven construction surfaces.
-
-**Extended Runtime**: 8+ hours of continuous operation per battery pack, enabling full-shift operations without recharging.
-
-**Construction-Grade Design**: IP65 protection rating for dust and water resistance, ensuring reliable operation in harsh construction environments.
-
-**Natural Language Control**: Built on ROBOCON OS with natural language interface, allowing workers to issue commands using voice or text that are converted into executable behavior trees.
-
-**ROS 2 Integration**: Full ROS 2 ecosystem support enables seamless integration with construction automation systems, sensors, and planning tools.
-
-## Product Specifications
-
-### Physical Dimensions
-
-- **Height**: 1,200 mm (base to shoulder)
-- **Maximum Height**: 2,100 mm (fully extended)
-- **Weight**: 95 kg (including base and arms)
-- **Base Dimensions**: 800 mm × 600 mm (footprint)
-
-### Payload Capacity
-
-- **Single Arm**: 15 kg (33 lbs)
-- **Dual Arms**: 30 kg (66 lbs total)
-
-### Reachability
-
-- **Arm Reach**: 1,500 mm (5 feet maximum arm span)
-- **Workspace Radius**: 1,500 mm
-- **Vertical Reach**: 2,100 mm (from base)
-
-### Performance
-
-- **Runtime**: 8+ hours per battery pack
-- **Precision**: 1mm accuracy enabling precise screwing operations and accurate pick-and-place tasks
-- **Maximum Joint Speeds**: J1: 120°/s, J2: 113°/s, J3: 106°/s, J4-J6: 181°/s
-- **Operating Temperature**: 0°C to 40°C
-- **Relative Humidity**: 20-80% RH (no condensation)
-
-### Power & Environment
-
-- **Power Supply**: 220V or 120V standard American Hz (60Hz), with onboard AC to DC charger
-- **Protection Rating**: IP65 (dust-proof and water-proof)
-- **Air Pressure**: 0.5-0.7 MPa (if pneumatic systems equipped)
-
-## Applications in Construction
-
-The RoboCon Servicer is designed for a wide range of construction service and maintenance applications:
-
-- **Component Assembly**: Precise placement and fastening of construction components, including screwing operations
-- **Equipment Maintenance**: Inspection, repair, and routine maintenance tasks
-- **Material Handling**: Loading, unloading, and positioning of construction materials
-- **Installation Work**: Precision installation of fixtures, equipment, and systems
-- **Quality Control**: Inspection and verification of construction work
-- **Human-Machine Collaboration**: Safe operation alongside construction workers
-
-## Continuous Improvement Through Software Updates
-
-Featuring over-the-air (OTA) software updates, RoboCon Servicer systems become more capable and productive with each new software upgrade. The platform benefits from RoboCon's AI Microservices Marketplace, where developers can create and distribute specialized modules for visual processing, planning logic, safety modules, and custom behaviors. This ensures that customers always have access to the most advanced robotic capabilities.
-
-"For the first time in the history of construction robotics, the tools we are providing for our workers only get better after the initial purchase," said Brad Lee, CEO of RoboCon. "We are constantly improving the quality, safety, consistency, and productivity of our products through software updates and our marketplace ecosystem, enabling our clients to stay at the forefront of construction automation."
-
-## Perfect Complement to the RoboCon Fleet
-
-The RoboCon Servicer perfectly supplements the existing RoboCon fleet, which includes the Mini Crane, Outdoor Sheather, Transporter, and Mini Loader. With this new platform, the RoboCon fleet is now equipped to handle a comprehensive range of construction tasks including material handling, lifting operations, sheathing work, transportation, and now—with the Servicer—precise manipulation and service operations.
-
-The Servicer's dual-arm design enables it to work alongside other RoboCon robots, creating coordinated construction workflows where multiple robots collaborate to complete complex projects. This multi-robot coordination, powered by RoboCon's zero-trust consensus protocol, ensures safe and efficient operation across the entire jobsite.
-
-## About RoboCon
-
-RoboCon is a groundbreaking robotic construction platform that delivers 70% labor savings, round-the-clock performance, and zero safety incidents—powered by intelligent, human-auditable automation. Our mission is to revolutionize the construction industry through safe, intelligent robotics.
-
-RoboCon is a next-generation robotic construction platform built on ROS 2 and the Nav2 stack, enhanced with a powerful open SDK and seamless natural language interface. By converting plain-English commands into dynamic Behavior Trees, RoboCon allows teams to control robotic systems with ease—no coding required. Designed for collaboration, safety, and auditable logic, RoboCon bridges the gap between automation and human control on modern jobsites.
-
-The RoboCon platform features:
-
-- **Natural Language Input**: Issue construction commands using voice or text. RoboCon processes them into interpretable, editable logic via dynamic behavior trees.
-
-- **Modular Behavior Trees**: Our architecture supports logic editing, fallback handling, error reporting, and real-time human clarification—all within a safe execution loop.
-
-- **Real-Time Feedback**: Sensors constantly scan for anomalies, while robots request clarifications or reroute around unsafe or blocked areas automatically.
-
-- **AI Microservices Marketplace**: Enables developers to create, distribute, and monetize plug-and-play microservices that enhance visual & sensor processing, planning logic, failover behavior, and custom safety modules.
-
-- **Powerful SDK**: Gives developers access to motor & sensor control layers, camera and LiDAR feeds, 3D mesh and navigation overlays, and secure communication with endpoint control.
-
-RoboCon seamlessly integrates into active construction environments, transforming traditional worksites into intelligent, self-orchestrating zones. From the moment a robot arrives on-site, it wirelessly registers with the RoboCon network and synchronizes with the central planning system.
-
-Learn more: [www.roboconinc.com](https://roboconinc.com)
-
-## Availability
-
-The RoboCon Servicer Tracked 15kg and RoboCon Servicer Wheeled 15kg are available for order. Contact our sales team for pricing, delivery timelines, and customization options.
-
-## Learn More
-
-- [Product Documentation](/docs/robots/servicer-tracked)
-- [ROBOCON SDK Documentation](/docs/getting-started/introduction)
-- [Contact Sales](https://www.roboconinc.com/contact)
+Developed to extend RoboCon's fleet of jobsite-deployable robots, the Servicer merges powerful manipulation, intelligent vision, and open-source software in a compact, collaborative design built for the rugged realities of modern construction sites.
 
 ---
 
-## Contacts
+## An Open Platform for Construction Robotics
 
-**Media Contact:**
+The Servicer runs on **RoboCon OS**, an open-architecture control system built entirely with open-source technologies --- including **ROS 2**, **Nav 2**, and open-source **visual and language models**. This approach establishes a collaborative ecosystem and marketplace that encourages developers, integrators, and researchers to expand the robot's functionality.
 
-RoboCon Media  
-media@roboconinc.com
+The **RoboCon SDK** provides direct access to motor and sensor drivers, communication APIs, and ROS 2-based control layers, enabling developers to program new tools, behaviors, and applications for the Servicer and the broader RoboCon platform.
+
+> "The Servicer is more than a machine --- it's a platform for innovation," said **Brad Lee**, CEO of RoboCon. "By combining open-source robotics with industrial-grade engineering, we're giving builders and developers a shared foundation to shape what comes next. If there's a new capability you want our robots to perform, our SDK and ROS 2 integration make it possible."
+
+---
+
+## Vision System: High-Fidelity Perception for Construction Tasks
+
+The Servicer's vision system is powered by a next-generation **active stereo depth camera** designed for both indoor and outdoor use. Featuring anti-glare optics and synchronized RGB-D output, the system captures:
+
+- **Depth resolution:** up to 1280 × 960 at 5 fps
+- **Color imaging:** up to 1280 × 960 at 16 fps (YUYV format)
+- **Z-axis accuracy:** approximately 0.8 mm at 800 mm
+- **Point precision:** approximately 0.6 mm at 800 mm
+- **Planarity:** approximately 0.8 mm at 800 mm
+
+These performance levels provide **sub-millimeter 3D accuracy** for object recognition, localization, and manipulation. When combined with the Servicer's dual-arm motion system, the robot achieves **1 mm spatial accuracy** and **±0.08 mm repeatability**, allowing it to perform delicate tasks such as fastening, welding, or precision cutting directly on-site.
+
+---
+
+## Power and Reach
+
+Weighing **800 kg (1,764 lbs)**, the Servicer provides a lift height of **2,000 mm (6.6 ft)** and arm reach of **1,500 mm (5 ft)**. Each arm features six degrees of freedom and a **15 kg (33 lb)** payload capacity, offering a combined **30 kg (66 lb)** lift. Its maximum joint speeds are optimized for smooth, safe interaction during collaborative operation.
+
+The platform's high reach and heavy payload capabilities enable the Servicer to perform structural assembly, equipment handling, and precision operations at elevation --- all while maintaining operator safety and positional consistency.
+
+---
+
+## Versatile Jobsite Applications
+
+The Servicer's modular architecture supports a wide range of tools and attachments for diverse construction and fabrication tasks, including:
+
+- **Routing and Cutting:** Accurately cuts sheathing and drywall to size.
+- **Material Handling and Assembly:** Performs precise pick-and-place operations and fixture installation.
+- **Welding and Metalwork:** Executes fine, repeatable welds and structural joining.
+- **Autonomous Support Tasks:** Assists in plugging charging cables or managing tools for other robotic systems.
+
+The Servicer also operates within RoboCon's **patent-pending sheathing system** and incorporates a **patented construction platform design** based on **U.S. Patent US12379713B1 -- "Construction Workstation with Rotatable Platform."** This patented configuration features a rotating, liftable platform that integrates multiple tools for efficient, multi-step construction processes --- forming the foundation for RoboCon's coordinated robotic workflows.
+
+---
+
+## Early Access and Developer Collaboration
+
+To encourage open collaboration and early adoption, RoboCon is publishing the Servicer's detailed specifications and inviting developers, researchers, and industry partners to participate in the platform's early-access phase. This initiative aims to refine real-world integrations, explore new use cases, and expand the capabilities of the RoboCon OS ecosystem.
+
+> "We're sharing this design early because collaboration drives progress," said Lee. "By opening the platform to developers and construction innovators now, we're accelerating the evolution of autonomous building systems that work safely and intelligently alongside humans."
+
+---
+
+## Technical Highlights
+
+| Specification | Value |
+|---------------|-------|
+| **Weight** | 800 kg (1,764 lbs) |
+| **Lift Height** | 2,000 mm (6.6 ft) |
+| **Arm Reach** | 1,500 mm (5 ft) |
+| **Payload** | 15 kg (33 lbs) per arm / 30 kg (66 lbs) total |
+| **Precision** | 0.6 mm @ 800 mm (vision) / ±0.08 mm repeatability |
+| **Runtime** | 8+ hours per charge |
+| **Operating Temperature** | 0 °C -- 40 °C (32 °F -- 104 °F) |
+| **Protection Rating** | IP65 (arms only) |
+| **Vision System** | Active stereo depth camera with synchronized RGB-D |
+| **OS** | RoboCon OS (ROS 2, Nav 2, open-source visual & language models) |
+| **SDK** | Full ROS 2 developer toolkit with drivers, APIs, and simulation tools |
+
+---
+
+## About RoboCon Inc.
+
+RoboCon Inc. is a California-based robotics company advancing **autonomous construction machinery** designed for active jobsites. Combining open-source software, natural language control, and auditable safety logic, RoboCon delivers intelligent systems that work safely alongside people to improve productivity, consistency, and safety.
+
+Learn more at [**www.roboconinc.com**](https://www.roboconinc.com)
+
+---
+
+**Media Contact:**  
+**RoboCon Media Relations**  
+📧 media@roboconinc.com  
+🌐 [www.roboconinc.com/news](https://www.roboconinc.com/news)
 
 ---
 

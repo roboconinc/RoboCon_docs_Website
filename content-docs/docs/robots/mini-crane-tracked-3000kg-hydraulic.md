@@ -248,6 +248,34 @@ The Mini Crane can coordinate with other foldable crane assemblies:
 - **Pressure Sensor**: `pressure_sensor_ps_1l_nv` (Hydraulic pressure monitoring)
 - **Analog Voltage Reader**: `r4ivb02_analog_voltage_reader`
 
+## Parts List
+
+The following table lists all major components, parts, model numbers, manufacturers, and brands used in the RoboCon Mini Crane Tracked 3000kg - Hydraulic:
+
+| Component Category | Component Name | Model Number / Part Number | Manufacturer / Brand | Application |
+|-------------------|----------------|---------------------------|---------------------|-------------|
+| **Motor** | Drive Motor | HPM-20KW / Golden 144VDC 20kW | Golden Motor | Primary drive motor for crane operations |
+| **Motor** | Hydraulic Pump Motor | M112-72V12K028B34P0 | - | Hydraulic pump drive for boom and leg actuators |
+| **Motor Driver** | CAN Motor Driver | IDS830ABS | - | Linear actuator control for steering and outriggers |
+| **Pan-Tilt** | Pan-Tilt Camera Mount | J-PT-760 | JEC | Camera positioning and stabilization |
+| **Rotary Platform** | Rotary Platform | DK120 | 3F | Base rotation for crane positioning |
+| **Rotary Platform** | High-Precision Rotary Platform | PTN085-18 | Newgear | Fine positioning and orientation control |
+| **LiDAR** | 2D LiDAR Sensor | SE-1035 | Hinson | Obstacle detection and environment mapping |
+| **LiDAR** | Single-Point LiDAR | TF03-180 | Benewake | Long-range distance measurement (up to 180m) |
+| **IMU Sensor** | 9-Axis IMU | BW-MINS50 | BWSensing | Orientation and motion sensing |
+| **Battery** | Lithium Iron Phosphate Battery | LFP 72V 300Ah | - | Main power supply |
+| **Battery Charger** | Intelligent Battery Charger | EPC602-4840-EP-01 | - | Battery charging system |
+| **PLC** | Programmable Logic Controller | 2AO-8AI-8DI-8DO 24V | - | Control system I/O (2 Analog Outputs, 8 Analog Inputs, 8 Digital Inputs, 8 Digital Outputs) |
+| **PLC** | Programmable Logic Controller | 10IOA12 (12DI-12DO) | - | Control system I/O (12 Digital Inputs, 12 Digital Outputs) |
+| **Camera** | Industrial Camera | ZN2133 | JEC | Visual inspection and monitoring |
+| **Depth Camera** | 3D Depth Camera | TM815 IX E1 | Botu | 3D environment perception and object detection |
+| **Energy Meter** | Energy Meter | AMC16-DETT | Accrel | Power consumption monitoring |
+| **Energy Meter** | Energy Meter | AMC16Z-FDK24 | Accrel | Power consumption monitoring |
+| **Fan Controller** | Fan Speed Controller | JPF4816 | - | Cooling system control |
+| **Relay Controller** | Relay Module | N4ROC04-24V | Xinlihui | Relay control system |
+| **Pressure Sensor** | Negative Pressure Sensor | PS-1L-NV | - | Hydraulic pressure monitoring |
+| **Analog Voltage Reader** | Analog Voltage Reader | R4IVB02 | - | Analog voltage reading |
+
 ## ROS 2 Development Details
 
 ### Bringup Package

@@ -160,7 +160,6 @@ const sidebars: SidebarsConfig = {
         'architecture/tsbt-vla-system/overview',
         'architecture/tsbt-vla-system/patent',
         'architecture/tsbt-vla-system/3d-world-to-text',
-        'architecture/tsbt-vla-system/sensor-to-text',
         'architecture/tsbt-vla-system/user-input-to-action',
         'architecture/tsbt-vla-system/llm-processing',
         'architecture/tsbt-vla-system/object-segmentation-module',
@@ -172,7 +171,6 @@ const sidebars: SidebarsConfig = {
       items: [
         'api-reference/motor-control',
         'api-reference/driver-control',
-        'api-reference/sensor-interfaces',
         'api-reference/behavior-trees',
         'api-reference/ros2-topics-and-dds',
         'api-reference/multi-robot-communication',

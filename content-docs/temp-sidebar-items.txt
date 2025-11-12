@@ -1,0 +1,252 @@
+﻿        {
+          type: 'doc',
+          id: 'hardware/arm/ae-30-cobot',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/arm',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/arm-example',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/arm-finger-2-gripper-30kg-on-30kg',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/arm-finger-2-gripper-5kg-on-10kg',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/arm-finger-2-gripper-5kg-on-5kg',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/arm-finger-5-gripper-10kg',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/arm-robocon-cobot-05kg',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/arm-robocon-cobot-05kg-branding',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/arm-robocon-cobot-15kg',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/arm-robocon-cobot-15kg-branding',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/arm-robocon-cobot-30kg',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/arm-robocon-industrial-10kg',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/arm-robocon-industrial-30kg',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/arm-robocon-industrial-50kg',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/arm-robocon-industrial-50kg-base',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/arm-robocon-industrial-50kg-branding',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/arm-robocon-industrial-50kg-manual',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/arm-robocon-industrial-60kg',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/arm-robocon-industrial-long-30kg',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/borunte',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/borunte-brtirbr2260a',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/borunte-brtirse1506a',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/borunte-brtirus0805a',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/borunte-brtirus0805a-media',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/borunte-brtirus1510av11',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/borunte-brtirus2030av11',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/borunte-brtirus2110a',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/borunte-brtirus2550a',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/borunte-brtirus2550a-media',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/borunte-brtirus2550a-proposal',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/borunte-brtirus3030a',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/borunte-brtirxz0805a',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/borunte-brtirxz0805a-proposal',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/borunte-brtirxz1515a',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/fairino',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/fairino-fr10',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/fairino-fr30',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/fairino-fr5',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/gearbox-j1-rv-200c-142',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/gearbox-j2-rv-320e-171',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/gearbox-j3-rv-160e-171',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/gearbox-j4-rv-50c-110',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/gearbox-j5-rv-40e-121',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/gearbox-j6-rv-20e-121',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/kuka',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/kuka-kr70r2100',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/motor-borunte-brtirxz0805a-j1-48vdc',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/motor-emda020h1jd3-220v-200w',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/motor-emda040h1jd3-220v-400w',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/motor-emda100h1jd3-220v-1000w',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/motor-emda100h2jd0-380v-1000w',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/motor-emda170h3jd1-220v-1700w',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/motor-emda200h1jd3-220v-1800w',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/motor-emda200h2jd0-380v-1800w',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/motor-emda440h2jd0-380v-4400w',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/motor-emda750h2jd0-380v-7500w',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/motor-sm-180a29c20c-mb34n',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/motor-sxd456',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/nkrt-650',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/szgh20241101',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/wuhan-maxwave-mw-1508',
+        },
+        {
+          type: 'doc',
+          id: 'hardware/arm/wuhan-maxwave-mw-1510',
+        },

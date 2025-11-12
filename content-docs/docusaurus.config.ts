@@ -47,8 +47,9 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Remove this to remove the "edit this page" links.
-          // editUrl: 'https://github.com/roboconinc/robocon-sdk/tree/main/',
+          editUrl: ({locale, versionDocsDirPath, docPath}) => {
+            return `https://github.com/roboconinc/RoboCon_docs_Website/blob/main/content-docs/docs/${docPath}`;
+          },
         },
         blog: false, // Disable blog for SDK documentation
         theme: {

@@ -1,0 +1,18 @@
+﻿# GPU XFX MERC310 AMD Radeon RX 7900XTX
+
+## Overview
+
+GPU XFX MERC310 AMD Radeon RX 7900XTX component for RoboCon robot systems.
+
+## Documentation
+
+*No documentation files found in Docs folder.*
+
+## Specifications
+
+*Specifications to be extracted from documentation.*
+
+## Integration
+
+This component is used in RoboCon robot systems.
+
